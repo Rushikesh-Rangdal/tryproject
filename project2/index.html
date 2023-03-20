@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm a farmer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="icon" href="images/favicon.ico">
+    <style>
+        body {
+            background-image: url("images/bg_image.jpg");
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+        <!--<h2>Machinery</h2>-->
+        <a href="htmlfiles/marketplace.html">
+            <div class="marketplace-container">
+                <button id="marketplace-btn">Marketplace</button>
+            </div>
+        </a>
+        <div class="machinery-container">
+            <button id="machinery-btn">Machinery</button>
+            <div class="machinery-options">
+                <a href="htmlfiles/rentmachine.html">
+                    <button id="rental-btn">Machinery on Rent</button></a>
+                <a href="htmlfiles/purchasemachine.html">
+                    <button id="purchase-btn">Machinery for Purchase</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="machinery-results"></div>
+    </div>
+
+
+    <div class="profile-container">
+        <div class="dropdown">
+            <a href="htmlfiles/profile_page.html"><img itemid="ccc" src="images/profile_image.png" alt="Profile picture"
+                    id="profile-img"></a>
+
+            <div class="dropdown-content">
+                <h3 id="username">Dada Auty</h3>
+
+                <div class="change-name-container">
+                    <input type="text" placeholder="Enter new name" id="new-name-input">
+                    <button id="change-name-btn">Change Name</button>
+                </div>
+                <p>Profile ID: 12345</p>
+                <p>My Purchases: 10</p>
+                <p>zmy Rents: 5</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
